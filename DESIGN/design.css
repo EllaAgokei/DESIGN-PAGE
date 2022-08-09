@@ -1,0 +1,239 @@
+ *{
+padding: 0;
+margin: 0;
+}
+body{
+    background-color: whitesmoke;
+    background: url(./images-3.jpeg);
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+
+.header-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: burlywood;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 50;
+    /* box-shadow: 5px 5px 5px 5px black; */
+}
+.header-container:hover{
+background-color: transparent;
+color: black;
+}
+.design-container{
+
+padding-right: 100px;
+}
+.list-nav{
+    flex: 1;
+    text-align: center;
+}
+
+.list-nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+}
+.list-nav ul li{
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+
+    
+}
+.list-nav ul li:hover .dropdown{
+    position: absolute;
+    border-radius: 10px;
+    left: 0;
+    float: left;
+    top: 100%;
+    display: block;
+    box-shadow: 5px 5px 5px 5px black; 
+}
+.list-nav ul li:hover .dropdown-1{
+    position: absolute;
+    border-radius: 10px;
+    left: 0;
+    float: left;
+    z-index: 99;
+    top: 100%;
+    display: block;
+    box-shadow: 5px 5px 5px 5px black; 
+}
+.dropdown-1{
+    display: none;
+    float: left;
+}
+.dropdown-1 ul li{
+    float: left;
+    width: 100px;
+    padding: 10px;
+}
+.dropdown-1 ul{
+float: left;
+display: block;
+margin: 10px;
+}
+.dropdown{
+    display: none;
+    float: left;
+}
+.dropdown ul li{
+    float: left;
+    width: 100px;
+    padding: 10px;
+}
+.dropdown ul{
+float: left;
+display: block;
+margin: 10px;
+}
+.list-nav ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 100px;
+
+}
+.list-nav ul :hover{
+    color: black;
+    background-color: transparent;
+}
+
+.body-container{
+    width: 100%;
+    height: 100vh;
+    padding-left: 500px;
+    padding-top: 100px;
+    justify-content: center;    
+}
+.signin-details{
+    width: 50vh;
+    height: 60vh;
+    background: transparent;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 10px;
+}
+.button-selector{
+
+    display: flex;
+    margin: 20px;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+.login-style button{
+    background-color: burlywood;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+}
+.register-style button{
+    background-color: burlywood;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+}
+.design-demo{
+    padding-left: 70px;
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.design-mini-demo1{
+    width: 50%;
+    height: 80vh;
+}
+.design-mini-demo2{
+    width: 50%;
+    height: 80vh;
+
+}
+.lottie{
+    padding-left: 70px;
+    padding-bottom: 100px;
+    
+}
+.img-story{
+    padding: 100px 100px;
+    display: flex;
+    justify-content: center;
+}
+.img-story-2{
+    border: solid white;
+    width: 40%;
+    height: 40%;
+
+}
+.img-story-2:hover{
+    border: solid black;
+    width: 45%;
+    height: 45%;
+/* transform: rotate3d(1, 1, 1, 30deg); */
+}
+.master{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.master p{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.images-container{
+    display: flex;
+    justify-content: center;
+    /* width: 90%; */
+    height: auto;
+
+}
+.images-container .img-1{
+    width: 30%;
+    margin-right: 10px;
+    height: auto;
+}
+.images-container .img-2{
+    width: 30%;
+    margin-right: 15px;
+    height: auto;
+}
+.images-container .img-3{
+    width: 30% ;
+    margin-right: 15px;
+    height: auto;
+}
+.end{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+h2{
+padding-bottom: 30px;
+}
+.lolo-2{
+
+   background-color: burlywood;
+   width: 30%;
+   height: 30%;
+}
+h3{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    font-size: x-large;
+}
